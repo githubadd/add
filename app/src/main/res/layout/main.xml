@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_above="@+id/horizonMenu"
+        android:gravity="center_vertical" >
+
+        <com.example.addi.addone.Oview
+            android:id="@+id/palette"
+            android:layout_width="match_parent"
+            android:layout_height="490dp" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizonMenu"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/linearLayout4"
+        android:layout_height="60dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center_vertical"
+            >
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/word"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_0"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/word"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="文字"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/write"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_1"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/write"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="画笔"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/mosaic"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_2"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/mosaic"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="马赛克"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/express"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_3"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/express"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="表情"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/frame"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_4"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/frame"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="边框"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lin"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                >
+                <ImageButton
+                    android:id="@+id/photo"
+                    android:layout_width="60dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/down_5"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="60dip"
+                    android:layout_height="10dip"
+                    android:layout_alignBottom="@+id/photo"
+                    android:layout_alignParentLeft="true"
+                    android:background="#000000"
+                    android:text="图片"
+                    android:textSize = "10sp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/divider_horizontal_line">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

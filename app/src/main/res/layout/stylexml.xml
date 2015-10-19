@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="fill_horizontal"
+    android:orientation="horizontal"
+    android:layout_height="fill_parent" >
+    <Button  android:id="@+id/returnbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:text="返回"/>
+
+
+    <Button  android:id="@+id/finishbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:text="保存与分享"  />
+
+    <ImageButton
+        android:id="@+id/rightbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/leftbutton"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/leftbutton"
+        android:background="#000000"
+        android:src="@drawable/rightbutton" />
+
+    <ImageButton
+        android:id="@+id/leftbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@+id/returnbutton"
+        android:background="#000000"
+        android:src="@drawable/leftbutton" />
+
+</RelativeLayout>
